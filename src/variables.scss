@@ -1,0 +1,15 @@
+// colors
+$c-blue-dark: #1c4875;
+$c-blue: #326ea5;
+$c-pale: #f7f7f7;
+$c-pale-dark: darken($c-pale, 5%);
+
+// layout
+$rem-base: 10px;
+$base-margin: 16px / $rem-base * 1rem;
+$movie-tile-width: 290px;
+$movie-tile-gutter: 10px;
+$site-max-width: $movie-tile-width * 4 + $movie-tile-gutter * 8;
+
+// typography
+$font-size: 16px / $rem-base * 1rem;
